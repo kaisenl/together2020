@@ -3462,6 +3462,10 @@ div.home strong{
 	font-size: bold;
 }
 
+/* p.date{
+	
+} */
+
 @media screen and (max-width: 1024px){
 	div.home strong{
 	top: 10em;
