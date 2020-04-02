@@ -3459,13 +3459,40 @@ div.home strong{
 	position: absolute;
 	top: 10em;
 	right: 8em;
-	font-size: bold;
+	letter-spacing: 2px;
 }
 
 p.date{
 	margin-top: -30px;
     font-size: 11px;
 }
+
+.content p{
+	letter-spacing:2px;
+}
+
+h1.pj_title{
+	margin: 0 0 0.2em 0;
+}
+
+/* h4.pj_name{
+	color:#aaa;
+} */
+
+p.pj_name{
+	float:left;
+	display: inline-block;
+	margin-right:20px;
+}
+
+article.pj_section{
+	margin-top:4em;
+}
+
+p.f_blurb{
+	margin: 0 0 0.5em 0;
+}
+
 
 @media screen and (max-width: 1024px){
 	div.home strong{
