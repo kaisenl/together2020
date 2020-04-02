@@ -3461,3 +3461,18 @@ div.home strong{
 	right: 8em;
 	font-size: bold;
 }
+
+@media screen and (max-width: 1024px){
+	div.home strong{
+	top: 10em;
+    right: 4em;
+	}
+}
+
+
+@media screen and (max-width: 736px){
+	div.home strong{
+	top: 5em;
+    right: 2em;
+	}
+}
