@@ -3455,6 +3455,22 @@ body.is-menu-visible #menu .close {
 
 
 /********* Added CSS *********/
+#banner{
+	background: url(../../images/banner1-4.png) no-repeat center center fixed; 
+	/* opacity: 0.5; */
+	background-size: cover;
+	min-height: 70%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -3;
+	/* bottom: 0%; */
+}
+	
+
 div.home strong{
 	position: absolute;
 	top: 10em;
@@ -3474,10 +3490,6 @@ p.date{
 h1.pj_title{
 	margin: 0 0 0.2em 0;
 }
-
-/* h4.pj_name{
-	color:#aaa;
-} */
 
 p.pj_name{
 	float:left;
