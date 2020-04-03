@@ -253,7 +253,7 @@ a {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: #f2849e !important;
+	color: #f2849e;
 }
 
 strong,
@@ -2657,7 +2657,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-	background-color: #f2849e;
+	background-color: #bccdee;
 }
 
 input[type="submit"].primary:active,
@@ -3505,6 +3505,9 @@ p.f_blurb{
 	margin: 0 0 0.5em 0;
 }
 
+a:hover{
+	color:#bccdee;
+}
 
 @media screen and (max-width: 1024px){
 	div.home strong{
