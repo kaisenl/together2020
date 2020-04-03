@@ -3454,7 +3454,7 @@ body.is-menu-visible #menu .close {
 }
 
 
-/********* Added CSS *********/
+/********* Seiko and Kaisen Added CSS *********/
 #banner{
 	background: url(../../images/banner1-4.png) no-repeat center center fixed; 
 	/* opacity: 0.5; */
@@ -3509,10 +3509,50 @@ a:hover{
 	color:#bccdee;
 }
 
+strong, b {
+    font-weight: 700;
+}
+
+.kdlogo {
+	font-family: 'Qwigley', cursive;
+}
+.kdlogo_top {
+	font-size: 75px;
+	margin-bottom: -50px;
+}
+.kdlogo_bot {
+	font-size: 30px;
+	margin-left: 6%;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+  }
+  .videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+
 @media screen and (max-width: 1024px){
 	div.home strong{
 	top: 10em;
     right: 4em;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.kdlogo_top {
+		font-size: 55px;
+		margin-bottom: -40px;
+	}
+	.kdlogo_bot {
+		font-size: 22px;
+		margin-left: 3%;
 	}
 }
 
