@@ -3470,7 +3470,7 @@ body.is-menu-visible #menu .close {
 	/* bottom: 0%; */
 }
 	
-
+/* index title, name, date */
 div.home strong{
 	position: absolute;
 	top: 10em;
@@ -3514,6 +3514,7 @@ strong, b {
     font-weight: 700;
 }
 
+/* footer logo style */
 .kdlogo {
 	font-family: 'Qwigley', cursive;
 }
@@ -3526,6 +3527,7 @@ strong, b {
 	margin-left: 6%;
 }
 
+/* ifram video responsive */
 .resp-container {
     position: relative;
     overflow: hidden;
@@ -3538,6 +3540,38 @@ strong, b {
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+/* back to top */
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#ced3dd;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#bccdee;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
 }
 
 @media screen and (max-width: 1024px){
@@ -3561,7 +3595,7 @@ strong, b {
 
 @media screen and (max-width: 736px){
 	div.home strong{
-	top: 5em;
+	top: 2em;
     right: 2em;
 	}
 }
