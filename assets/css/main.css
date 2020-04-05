@@ -3456,7 +3456,7 @@ body.is-menu-visible #menu .close {
 
 /********* Seiko and Kaisen CSS *********/
 #banner{
-	background: url(../../images/banner1-4.png) no-repeat center center fixed; 
+	background: url(../../images/banner.png) no-repeat center center fixed; 
 	/* opacity: 0.5; */
 	background-size: cover;
 	min-height: 70%;
@@ -3476,6 +3476,7 @@ div.home strong{
 	top: 10em;
 	right: 8em;
 	letter-spacing: 2px;
+	z-index: 100;
 }
 
 p.date{
