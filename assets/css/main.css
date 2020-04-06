@@ -3457,7 +3457,6 @@ body.is-menu-visible #menu .close {
 /********* Seiko and Kaisen CSS *********/
 #banner{
 	background: url(../../images/banner.png) no-repeat center center fixed; 
-	/* opacity: 0.5; */
 	background-size: cover;
 	min-height: 70%;
 	min-width: 1024px;
@@ -3467,7 +3466,6 @@ body.is-menu-visible #menu .close {
 	top: 0;
 	left: 0;
 	z-index: -3;
-	/* bottom: 0%; */
 }
 	
 /* index title, name, date */
@@ -3542,6 +3540,9 @@ strong, b {
     border: 0;
 }
 
+
+
+
 /* back to top */
 #scroll {
     position:fixed;
@@ -3597,5 +3598,14 @@ strong, b {
 	div.home strong{
 	top: 2em;
     right: 2em;
+	}
+}
+
+/* image + content (content focous) */
+@media screen and (max-width: 425px){
+	.image.right{
+		float:none;
+		padding: 0;
+		max-width:100%;
 	}
 }
