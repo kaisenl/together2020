@@ -3490,10 +3490,21 @@ h1.pj_title{
 	margin: 0 0 0.2em 0;
 }
 
-p.pj_name{
-	float:left;
+/* auther's image on content page */
+img.author_th{
+    height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+ul.pj_meta{
+	list-style: none;
+	padding-left:0;
+}
+
+ul.pj_meta li{
 	display: inline-block;
-	margin-right:20px;
+	vertical-align: -webkit-baseline-middle;
 }
 
 article.pj_section{
@@ -3539,7 +3550,6 @@ strong, b {
     height: 100%;
     border: 0;
 }
-
 
 
 
