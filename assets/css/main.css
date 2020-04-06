@@ -3490,6 +3490,11 @@ h1.pj_title{
 	margin: 0 0 0.2em 0;
 }
 
+/* title position inside image */
+.tiles article>a {
+	height: 170%;
+}
+
 /* auther's image on content page */
 img.author_th{
     height: 50px;
@@ -3550,8 +3555,6 @@ strong, b {
     height: 100%;
     border: 0;
 }
-
-
 
 /* back to top */
 #scroll {
