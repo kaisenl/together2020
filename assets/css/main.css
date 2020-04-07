@@ -3510,6 +3510,7 @@ ul.pj_meta{
 ul.pj_meta li{
 	display: inline-block;
 	vertical-align: -webkit-baseline-middle;
+	vertical-align: -moz-middle-with-baseline;
 }
 
 article.pj_section{
