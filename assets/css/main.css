@@ -3456,7 +3456,7 @@ body.is-menu-visible #menu .close {
 
 /********* Seiko and Kaisen CSS *********/
 #banner{
-	background: url(../../images/banner.png) no-repeat center center fixed; 
+	background: url(../../images/banner.png) no-repeat center center fixed;
 	background-size: cover;
 	min-height: 70%;
 	min-width: 1024px;
@@ -3467,7 +3467,7 @@ body.is-menu-visible #menu .close {
 	left: 0;
 	z-index: -3;
 }
-	
+
 /* index title, name, date */
 div.home strong{
 	position: absolute;
@@ -3492,7 +3492,11 @@ h1.pj_title{
 
 /* title position inside image */
 .tiles article>a {
-	height: 160%;
+	height: 180%;
+}
+
+.tiles article>a .content> :last-child {
+	margin-bottom: 50px;
 }
 
 /* auther's image on content page */
