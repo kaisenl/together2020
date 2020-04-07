@@ -3469,6 +3469,13 @@ body.is-menu-visible #menu .close {
 }
 	
 /* index title, name, date */
+
+h2{
+	line-height: 1.2;
+	letter-spacing: 0.3em;
+}
+
+
 div.home strong{
 	position: absolute;
 	top: 10em;
@@ -3478,7 +3485,7 @@ div.home strong{
 }
 
 p.date{
-	margin-top: -30px;
+	margin-top: -35px;
     font-size: 11px;
 }
 
@@ -3492,7 +3499,7 @@ h1.pj_title{
 
 /* title position inside image */
 .tiles article>a {
-	height: 160%;
+	height: 170%;
 }
 
 /* auther's image on content page */
@@ -3612,6 +3619,10 @@ strong, b {
 	div.home strong{
 	top: 2em;
     right: 2em;
+	}
+
+	h2{
+		font-size:16px;
 	}
 }
 
