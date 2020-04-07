@@ -3492,11 +3492,11 @@ h1.pj_title{
 
 /* title position inside image */
 .tiles article>a {
-	height: 180%;
+	height: 175%;
 }
 
 .tiles article>a .content> :last-child {
-	margin-bottom: 50px;
+	margin-bottom: 20%;
 }
 
 /* auther's image on content page */
