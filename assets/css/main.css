@@ -3456,7 +3456,7 @@ body.is-menu-visible #menu .close {
 
 /********* Seiko and Kaisen CSS *********/
 #banner{
-	background: url(../../images/banner.png) no-repeat center center fixed; 
+	background: url(../../images/banner.png) no-repeat center center fixed;
 	background-size: cover;
 	min-height: 70%;
 	min-width: 1024px;
@@ -3467,7 +3467,7 @@ body.is-menu-visible #menu .close {
 	left: 0;
 	z-index: -3;
 }
-	
+
 /* index title, name, date */
 
 h2{
