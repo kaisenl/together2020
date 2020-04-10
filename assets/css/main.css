@@ -3456,8 +3456,7 @@ body.is-menu-visible #menu .close {
 
 /********* Seiko and Kaisen CSS *********/
 #banner{
-	background: url(../../images/banner.png) no-repeat center center fixed; 
-	/* opacity: 0.5; */
+	background: url(../../images/banner.png) no-repeat center center fixed;
 	background-size: cover;
 	min-height: 70%;
 	min-width: 1024px;
@@ -3467,10 +3466,16 @@ body.is-menu-visible #menu .close {
 	top: 0;
 	left: 0;
 	z-index: -3;
-	/* bottom: 0%; */
 }
-	
+
 /* index title, name, date */
+
+h2{
+	line-height: 1.2;
+	letter-spacing: 0.3em;
+}
+
+
 div.home strong{
 	position: absolute;
 	top: 10em;
@@ -3480,7 +3485,7 @@ div.home strong{
 }
 
 p.date{
-	margin-top: -30px;
+	margin-top: -35px;
     font-size: 11px;
 }
 
@@ -3492,10 +3497,31 @@ h1.pj_title{
 	margin: 0 0 0.2em 0;
 }
 
-p.pj_name{
-	float:left;
+/* title position inside image */
+.tiles article>a {
+	height: 100%;
+}
+
+.tiles article>a h2 {
+	padding-top: 75%;
+}
+
+/* auther's image on content page */
+img.author_th{
+    height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+ul.pj_meta{
+	list-style: none;
+	padding-left:0;
+}
+
+ul.pj_meta li{
 	display: inline-block;
-	margin-right:20px;
+	vertical-align: -webkit-baseline-middle;
+	vertical-align: -moz-middle-with-baseline;
 }
 
 article.pj_section{
@@ -3597,5 +3623,18 @@ strong, b {
 	div.home strong{
 	top: 2em;
     right: 2em;
+	}
+
+	h2{
+		font-size:16px;
+	}
+}
+
+/* image + content (content focous) */
+@media screen and (max-width: 425px){
+	.image.right{
+		float:none;
+		padding: 0;
+		max-width:100%;
 	}
 }
